@@ -1,4 +1,38 @@
 /*Estilos da página index.html*/
+*{
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    margin: 0;
+} 
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+}
+#menu-h ul li a:hover{
+    background-color: indigo;
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: indigo;
+}
+/*
 .center{
     text-align: center;
 }
@@ -42,7 +76,7 @@
 }
 .justify{
     text-align: justify;
-}
+}*/
 /*Estilos da página contato.html*/
 .ml-50{
     margin-left: 200px;
